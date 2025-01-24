@@ -52,5 +52,10 @@ about:
   license_family: MIT
 
 extra:
+  anaconda-services:
+    ref: https://anaconda.zendesk.com/agent/tickets/63495
+    reason: Dependency for dbt-core 
+  recipe-maintainers:
+    - ianaobi
   recipe-maintainers:
     - rxm7706
