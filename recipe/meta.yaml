@@ -31,7 +31,7 @@ test:
     - daff
   commands:
     - pip check
-    - daff --help
+    - daff version
     - python test/test_example.py
   requires:
     - pip
